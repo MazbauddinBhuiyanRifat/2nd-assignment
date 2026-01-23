@@ -54,15 +54,17 @@ text-transform: capitalize;
 
    
     .box {
-        padding-top: 60px; 
-        flex-direction: column;
-        gap: 40px; 
-        align-items: center;
+        padding-top: 40px; 
+        
+        gap: 20px; 
+       grid-template-columns: repeat(2,1fr);
+        align-items: start;
+        
     }
 
     .word {
         font-size: 32px;
-        text-align: center;
+      
     }
 }
 
