@@ -44,5 +44,27 @@ text-transform: capitalize;
 }
 
 
+@media screen and  (max-width: 576px) {
+   
+    .content, .next {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 24px;
+        text-align: center; }
+
+   
+    .box {
+        padding-top: 60px; 
+        flex-direction: column;
+        gap: 40px; 
+        align-items: center;
+    }
+
+    .word {
+        font-size: 32px;
+        text-align: center;
+    }
+}
+
 
 
